@@ -9,6 +9,23 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css" type="text/css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" type="text/css" />
         <style>
+          
+        .links{
+          padding:10px 15px;
+          transition-property: transform;
+          transition-duration: .13s;
+          transition-timing-function: ease-out;
+
+      }
+      .links:hover {
+          transform:scale(1.1);
+      }
+      @media (max-width: 1369px) {
+          .links{
+              padding:50px 50px;
+          }
+        }
+        
             .bk.alert {
                     padding: 0.75rem 1.25rem;
                     border: 1px solid transparent;
@@ -2080,7 +2097,20 @@
                 /* END panel.min.js */
         </script>
   </head>
-  <body>
+  
+  <body style="font-family: Arial, sans-serif; display:flex;flex-wrap:wrap;width:90vw;justify-content:center;line-height:1.5;color:black;">
+    <div style="display:flex;flex-wrap:wrap;width:70vw;text-align:center;justify-content:space-around;align-items:center;margin:10px 0 30px 0;">
+        <h3 style="width:100%">Other links</h3>
+        <a class="links" href="https://zackfair1.github.io/tg_channels_out/" target="_blank" style="width:25%;text-decoration:none;margin:15px;font-size:0.9em;color:black;font-weight:bold;background-color:#E5ECF6;height:35px;display:flex;align-items:center;justify-content:center;box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;">Telegram Channel Graph<br>(Out Degree Network)</a>
+        <a class="links" href="https://zackfair1.github.io/tg_channels_in/" target="_blank" style="width:25%;color:black;margin:15px;font-size:0.9em;text-decoration:none;font-weight:bold;background-color:#E5ECF6;height:35px;display:flex;align-items:center;justify-content:center;box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;">Telegram Channel Graph<br>(In Degree Network)</a>
+        <a class="links" href="https://zackfair1.github.io/tg_channels_bc/" target="_blank" style="width:25% ;margin:15px;text-decoration:none;font-size:0.9em;color:black;font-weight:bold;background-color:#E5ECF6;height:35px;display:flex;align-items:center;justify-content:center;box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;">Telegram Channel Graph<br>(Betweenness Centrality Network)</a>
+        <a class="links" href="https://zackfair1.github.io/ego_fe/" target="_blank" style="width:25% ;text-decoration:none;margin:15px;font-size:0.9em;color:black;font-weight:bold;background-color:#E5ECF6;height:35px;display:flex;align-items:center;justify-content:center;box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;">Telegram Channel Graph<br>(Flat Earth Egocentric Network)</a>
+        <a class="links" href="https://zackemcee.github.io/tweets_topics_chord/" target="_blank" style="width:25% ;text-decoration:none;margin:15px;font-size:0.9em;color:black;font-weight:bold;background-color:#E5ECF6;height:35px;display:flex;align-items:center;justify-content:center;box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;">Telegram Channel Graph<br>(Communities Category Network)</a>
+        <a class="links" href="https://fe-tweets.herokuapp.com/" target="_blank" style="width:25% ;text-decoration:none;margin:15px;font-size:0.9em;color:black;font-weight:bold;background-color:#E5ECF6;height:35px;display:flex;align-items:center;justify-content:center;box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;">Twitter Analysis by Date and Likes<br>(Tweets Text and Date Distribution)</a>
+        <a class="links" href="https://zackfair1.github.io/lda_flat_topic/" target="_blank" style="width:25%;margin:15px;text-decoration:none;font-size:0.9em;color:black;font-weight:bold;background-color:#E5ECF6;height:35px;display:flex;align-items:center;justify-content:center;box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;">Twitter Analysis<br>(LDA Topics Analysis)</a>
+        <a class="links" href="https://projector.tensorflow.org/?config=https://raw.githubusercontent.com/zackfair1/w2v_fe/main/config.json" target="_blank" style="width:25%;margin:15px;text-decoration:none;font-size:0.9em;color:black;font-weight:bold;background-color:#E5ECF6;height:35px;display:flex;align-items:center;justify-content:center;box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;">Twitter Textual Analysis<br>(Word Embeddings Projector)</a>
+        <a class="links" href="https://projector.tensorflow.org/?config=https://raw.githubusercontent.com/zackfair1/images_rep/main/config.json" target="_blank" style="width:25%;margin:15px;text-decoration:none;font-size:0.9em;color:black;font-weight:bold;background-color:#E5ECF6;height:35px;display:flex;align-items:center;justify-content:center;box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;">Twitter Image Analysis<br>(Image Embeddings Projector)</a>
+    </div>
           
               <div class="bk-root" id="18e52467-e06d-4c55-847e-f4bb1d9d8204" data-root-id="1180"></div>
       
